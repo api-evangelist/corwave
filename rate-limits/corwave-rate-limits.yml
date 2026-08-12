@@ -1,0 +1,11 @@
+generated: '2026-08-11'
+method: searched
+source: https://www.corwave.com/
+limit_count: 0
+limits: []
+note: >-
+  No rate limits are documented because CorWave publishes no API. Probes on
+  2026-08-11 returned 404 for /api, /api/docs, /docs, /openapi.json, /openapi.yaml,
+  /swagger.json, /v1/openapi.json, /api-docs and /graphql on www.corwave.com, and
+  api/developer/developers/docs/portal/app/status subdomains of corwave.com are all
+  NXDOMAIN. An honest zero.

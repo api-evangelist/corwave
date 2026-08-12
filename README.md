@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Corwave is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+CorWave SA is a French clinical-stage medical device company developing implantable cardiac assist pumps for advanced heart failure. Its patented wave membrane technology uses a biomimetic polymer membrane driven by an electromagnetic actuator to deliver truly pulsatile, physiological blood flow, differentiating the CorWave LVAS and Nemo pumps from commercially available rotary-pump LVADs. CorWave LVAS is an investigational device and is not approved for commercial use in any country.
+
+CorWave publishes no public API, SDK, developer portal, or machine-readable specification. See `x-coverage` in `apis.yml` for the probe evidence.
+
+- https://www.corwave.com/
 - https://forgeglobal.com/corwave_stock/

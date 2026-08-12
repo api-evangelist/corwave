@@ -1,0 +1,50 @@
+generated: '2026-08-11'
+method: probed
+source: https://www.corwave.com/.well-known/
+host: https://www.corwave.com
+note: >-
+  Every /.well-known/ path returned a hard 404 from the WordPress origin (an HTML
+  404 page, not a soft-200 SPA catch-all). No document was served, so NO WellKnown
+  or SecurityTxt pointer is emitted in apis.yml — this file records a verified
+  absence, not a presence. CorWave publishes no API host; api/developer/docs/portal
+  subdomains of corwave.com are all NXDOMAIN, so www.corwave.com is the only host
+  there was to probe.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+hosts_considered:
+- host: www.corwave.com
+  resolved: true
+- host: api.corwave.com
+  resolved: false
+  note: NXDOMAIN
+- host: developer.corwave.com
+  resolved: false
+  note: NXDOMAIN
+- host: developers.corwave.com
+  resolved: false
+  note: NXDOMAIN
+- host: docs.corwave.com
+  resolved: false
+  note: NXDOMAIN
+- host: portal.corwave.com
+  resolved: false
+  note: NXDOMAIN
+- host: app.corwave.com
+  resolved: false
+  note: NXDOMAIN
+- host: status.corwave.com
+  resolved: false
+  note: NXDOMAIN
