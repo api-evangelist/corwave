@@ -72,6 +72,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/corwave-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/corwave-rate-limits.yml
 - type: Website
   url: https://www.corwave.com/
 - type: Contact
