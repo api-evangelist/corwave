@@ -52,7 +52,7 @@ tags:
 - Cardiology
 - Heart Failure
 - Implantable Devices
-- MedTech
+- Medical Technology
 - France
 - Clinical Stage
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Medtech
 - France
 - Clinical Stage
+- MedTech
 apis: []
 maintainers:
 - FN: Kin Lane
